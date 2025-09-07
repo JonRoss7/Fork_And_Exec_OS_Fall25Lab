@@ -181,6 +181,376 @@ zombie_demo/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zombie_demo.dir/build.make CMakeFiles/zombie_demo.dir/build
 .PHONY : zombie_demo/fast
 
+#=============================================================================
+# Target rules for targets named ch1_single_fork
+
+# Build rule for target.
+ch1_single_fork: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ch1_single_fork
+.PHONY : ch1_single_fork
+
+# fast build rule for target.
+ch1_single_fork/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch1_single_fork.dir/build.make CMakeFiles/ch1_single_fork.dir/build
+.PHONY : ch1_single_fork/fast
+
+#=============================================================================
+# Target rules for targets named ch2_multi_child
+
+# Build rule for target.
+ch2_multi_child: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ch2_multi_child
+.PHONY : ch2_multi_child
+
+# fast build rule for target.
+ch2_multi_child/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch2_multi_child.dir/build.make CMakeFiles/ch2_multi_child.dir/build
+.PHONY : ch2_multi_child/fast
+
+#=============================================================================
+# Target rules for targets named ch3_exec_ls
+
+# Build rule for target.
+ch3_exec_ls: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ch3_exec_ls
+.PHONY : ch3_exec_ls
+
+# fast build rule for target.
+ch3_exec_ls/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch3_exec_ls.dir/build.make CMakeFiles/ch3_exec_ls.dir/build
+.PHONY : ch3_exec_ls/fast
+
+#=============================================================================
+# Target rules for targets named ch4_exec_worker
+
+# Build rule for target.
+ch4_exec_worker: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ch4_exec_worker
+.PHONY : ch4_exec_worker
+
+# fast build rule for target.
+ch4_exec_worker/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch4_exec_worker.dir/build.make CMakeFiles/ch4_exec_worker.dir/build
+.PHONY : ch4_exec_worker/fast
+
+#=============================================================================
+# Target rules for targets named ch5_exec_examples
+
+# Build rule for target.
+ch5_exec_examples: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ch5_exec_examples
+.PHONY : ch5_exec_examples
+
+# fast build rule for target.
+ch5_exec_examples/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch5_exec_examples.dir/build.make CMakeFiles/ch5_exec_examples.dir/build
+.PHONY : ch5_exec_examples/fast
+
+#=============================================================================
+# Target rules for targets named ch6_pipe_sum
+
+# Build rule for target.
+ch6_pipe_sum: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ch6_pipe_sum
+.PHONY : ch6_pipe_sum
+
+# fast build rule for target.
+ch6_pipe_sum/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch6_pipe_sum.dir/build.make CMakeFiles/ch6_pipe_sum.dir/build
+.PHONY : ch6_pipe_sum/fast
+
+#=============================================================================
+# Target rules for targets named ch7_pipeline
+
+# Build rule for target.
+ch7_pipeline: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ch7_pipeline
+.PHONY : ch7_pipeline
+
+# fast build rule for target.
+ch7_pipeline/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch7_pipeline.dir/build.make CMakeFiles/ch7_pipeline.dir/build
+.PHONY : ch7_pipeline/fast
+
+#=============================================================================
+# Target rules for targets named ch8_wait_nonblock
+
+# Build rule for target.
+ch8_wait_nonblock: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ch8_wait_nonblock
+.PHONY : ch8_wait_nonblock
+
+# fast build rule for target.
+ch8_wait_nonblock/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch8_wait_nonblock.dir/build.make CMakeFiles/ch8_wait_nonblock.dir/build
+.PHONY : ch8_wait_nonblock/fast
+
+#=============================================================================
+# Target rules for targets named ch9_zombie
+
+# Build rule for target.
+ch9_zombie: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ch9_zombie
+.PHONY : ch9_zombie
+
+# fast build rule for target.
+ch9_zombie/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch9_zombie.dir/build.make CMakeFiles/ch9_zombie.dir/build
+.PHONY : ch9_zombie/fast
+
+#=============================================================================
+# Target rules for targets named ch10_pool
+
+# Build rule for target.
+ch10_pool: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ch10_pool
+.PHONY : ch10_pool
+
+# fast build rule for target.
+ch10_pool/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch10_pool.dir/build.make CMakeFiles/ch10_pool.dir/build
+.PHONY : ch10_pool/fast
+
+challenges/ch10_pool.o: challenges/ch10_pool.c.o
+.PHONY : challenges/ch10_pool.o
+
+# target to build an object file
+challenges/ch10_pool.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch10_pool.dir/build.make CMakeFiles/ch10_pool.dir/challenges/ch10_pool.c.o
+.PHONY : challenges/ch10_pool.c.o
+
+challenges/ch10_pool.i: challenges/ch10_pool.c.i
+.PHONY : challenges/ch10_pool.i
+
+# target to preprocess a source file
+challenges/ch10_pool.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch10_pool.dir/build.make CMakeFiles/ch10_pool.dir/challenges/ch10_pool.c.i
+.PHONY : challenges/ch10_pool.c.i
+
+challenges/ch10_pool.s: challenges/ch10_pool.c.s
+.PHONY : challenges/ch10_pool.s
+
+# target to generate assembly for a file
+challenges/ch10_pool.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch10_pool.dir/build.make CMakeFiles/ch10_pool.dir/challenges/ch10_pool.c.s
+.PHONY : challenges/ch10_pool.c.s
+
+challenges/ch1_single_fork.o: challenges/ch1_single_fork.c.o
+.PHONY : challenges/ch1_single_fork.o
+
+# target to build an object file
+challenges/ch1_single_fork.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch1_single_fork.dir/build.make CMakeFiles/ch1_single_fork.dir/challenges/ch1_single_fork.c.o
+.PHONY : challenges/ch1_single_fork.c.o
+
+challenges/ch1_single_fork.i: challenges/ch1_single_fork.c.i
+.PHONY : challenges/ch1_single_fork.i
+
+# target to preprocess a source file
+challenges/ch1_single_fork.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch1_single_fork.dir/build.make CMakeFiles/ch1_single_fork.dir/challenges/ch1_single_fork.c.i
+.PHONY : challenges/ch1_single_fork.c.i
+
+challenges/ch1_single_fork.s: challenges/ch1_single_fork.c.s
+.PHONY : challenges/ch1_single_fork.s
+
+# target to generate assembly for a file
+challenges/ch1_single_fork.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch1_single_fork.dir/build.make CMakeFiles/ch1_single_fork.dir/challenges/ch1_single_fork.c.s
+.PHONY : challenges/ch1_single_fork.c.s
+
+challenges/ch2_multi_child.o: challenges/ch2_multi_child.c.o
+.PHONY : challenges/ch2_multi_child.o
+
+# target to build an object file
+challenges/ch2_multi_child.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch2_multi_child.dir/build.make CMakeFiles/ch2_multi_child.dir/challenges/ch2_multi_child.c.o
+.PHONY : challenges/ch2_multi_child.c.o
+
+challenges/ch2_multi_child.i: challenges/ch2_multi_child.c.i
+.PHONY : challenges/ch2_multi_child.i
+
+# target to preprocess a source file
+challenges/ch2_multi_child.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch2_multi_child.dir/build.make CMakeFiles/ch2_multi_child.dir/challenges/ch2_multi_child.c.i
+.PHONY : challenges/ch2_multi_child.c.i
+
+challenges/ch2_multi_child.s: challenges/ch2_multi_child.c.s
+.PHONY : challenges/ch2_multi_child.s
+
+# target to generate assembly for a file
+challenges/ch2_multi_child.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch2_multi_child.dir/build.make CMakeFiles/ch2_multi_child.dir/challenges/ch2_multi_child.c.s
+.PHONY : challenges/ch2_multi_child.c.s
+
+challenges/ch3_exec_ls.o: challenges/ch3_exec_ls.c.o
+.PHONY : challenges/ch3_exec_ls.o
+
+# target to build an object file
+challenges/ch3_exec_ls.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch3_exec_ls.dir/build.make CMakeFiles/ch3_exec_ls.dir/challenges/ch3_exec_ls.c.o
+.PHONY : challenges/ch3_exec_ls.c.o
+
+challenges/ch3_exec_ls.i: challenges/ch3_exec_ls.c.i
+.PHONY : challenges/ch3_exec_ls.i
+
+# target to preprocess a source file
+challenges/ch3_exec_ls.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch3_exec_ls.dir/build.make CMakeFiles/ch3_exec_ls.dir/challenges/ch3_exec_ls.c.i
+.PHONY : challenges/ch3_exec_ls.c.i
+
+challenges/ch3_exec_ls.s: challenges/ch3_exec_ls.c.s
+.PHONY : challenges/ch3_exec_ls.s
+
+# target to generate assembly for a file
+challenges/ch3_exec_ls.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch3_exec_ls.dir/build.make CMakeFiles/ch3_exec_ls.dir/challenges/ch3_exec_ls.c.s
+.PHONY : challenges/ch3_exec_ls.c.s
+
+challenges/ch4_exec_worker.o: challenges/ch4_exec_worker.c.o
+.PHONY : challenges/ch4_exec_worker.o
+
+# target to build an object file
+challenges/ch4_exec_worker.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch4_exec_worker.dir/build.make CMakeFiles/ch4_exec_worker.dir/challenges/ch4_exec_worker.c.o
+.PHONY : challenges/ch4_exec_worker.c.o
+
+challenges/ch4_exec_worker.i: challenges/ch4_exec_worker.c.i
+.PHONY : challenges/ch4_exec_worker.i
+
+# target to preprocess a source file
+challenges/ch4_exec_worker.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch4_exec_worker.dir/build.make CMakeFiles/ch4_exec_worker.dir/challenges/ch4_exec_worker.c.i
+.PHONY : challenges/ch4_exec_worker.c.i
+
+challenges/ch4_exec_worker.s: challenges/ch4_exec_worker.c.s
+.PHONY : challenges/ch4_exec_worker.s
+
+# target to generate assembly for a file
+challenges/ch4_exec_worker.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch4_exec_worker.dir/build.make CMakeFiles/ch4_exec_worker.dir/challenges/ch4_exec_worker.c.s
+.PHONY : challenges/ch4_exec_worker.c.s
+
+challenges/ch5_exec_examples.o: challenges/ch5_exec_examples.c.o
+.PHONY : challenges/ch5_exec_examples.o
+
+# target to build an object file
+challenges/ch5_exec_examples.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch5_exec_examples.dir/build.make CMakeFiles/ch5_exec_examples.dir/challenges/ch5_exec_examples.c.o
+.PHONY : challenges/ch5_exec_examples.c.o
+
+challenges/ch5_exec_examples.i: challenges/ch5_exec_examples.c.i
+.PHONY : challenges/ch5_exec_examples.i
+
+# target to preprocess a source file
+challenges/ch5_exec_examples.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch5_exec_examples.dir/build.make CMakeFiles/ch5_exec_examples.dir/challenges/ch5_exec_examples.c.i
+.PHONY : challenges/ch5_exec_examples.c.i
+
+challenges/ch5_exec_examples.s: challenges/ch5_exec_examples.c.s
+.PHONY : challenges/ch5_exec_examples.s
+
+# target to generate assembly for a file
+challenges/ch5_exec_examples.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch5_exec_examples.dir/build.make CMakeFiles/ch5_exec_examples.dir/challenges/ch5_exec_examples.c.s
+.PHONY : challenges/ch5_exec_examples.c.s
+
+challenges/ch6_pipe_sum.o: challenges/ch6_pipe_sum.c.o
+.PHONY : challenges/ch6_pipe_sum.o
+
+# target to build an object file
+challenges/ch6_pipe_sum.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch6_pipe_sum.dir/build.make CMakeFiles/ch6_pipe_sum.dir/challenges/ch6_pipe_sum.c.o
+.PHONY : challenges/ch6_pipe_sum.c.o
+
+challenges/ch6_pipe_sum.i: challenges/ch6_pipe_sum.c.i
+.PHONY : challenges/ch6_pipe_sum.i
+
+# target to preprocess a source file
+challenges/ch6_pipe_sum.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch6_pipe_sum.dir/build.make CMakeFiles/ch6_pipe_sum.dir/challenges/ch6_pipe_sum.c.i
+.PHONY : challenges/ch6_pipe_sum.c.i
+
+challenges/ch6_pipe_sum.s: challenges/ch6_pipe_sum.c.s
+.PHONY : challenges/ch6_pipe_sum.s
+
+# target to generate assembly for a file
+challenges/ch6_pipe_sum.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch6_pipe_sum.dir/build.make CMakeFiles/ch6_pipe_sum.dir/challenges/ch6_pipe_sum.c.s
+.PHONY : challenges/ch6_pipe_sum.c.s
+
+challenges/ch7_pipeline.o: challenges/ch7_pipeline.c.o
+.PHONY : challenges/ch7_pipeline.o
+
+# target to build an object file
+challenges/ch7_pipeline.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch7_pipeline.dir/build.make CMakeFiles/ch7_pipeline.dir/challenges/ch7_pipeline.c.o
+.PHONY : challenges/ch7_pipeline.c.o
+
+challenges/ch7_pipeline.i: challenges/ch7_pipeline.c.i
+.PHONY : challenges/ch7_pipeline.i
+
+# target to preprocess a source file
+challenges/ch7_pipeline.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch7_pipeline.dir/build.make CMakeFiles/ch7_pipeline.dir/challenges/ch7_pipeline.c.i
+.PHONY : challenges/ch7_pipeline.c.i
+
+challenges/ch7_pipeline.s: challenges/ch7_pipeline.c.s
+.PHONY : challenges/ch7_pipeline.s
+
+# target to generate assembly for a file
+challenges/ch7_pipeline.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch7_pipeline.dir/build.make CMakeFiles/ch7_pipeline.dir/challenges/ch7_pipeline.c.s
+.PHONY : challenges/ch7_pipeline.c.s
+
+challenges/ch8_wait_nonblock.o: challenges/ch8_wait_nonblock.c.o
+.PHONY : challenges/ch8_wait_nonblock.o
+
+# target to build an object file
+challenges/ch8_wait_nonblock.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch8_wait_nonblock.dir/build.make CMakeFiles/ch8_wait_nonblock.dir/challenges/ch8_wait_nonblock.c.o
+.PHONY : challenges/ch8_wait_nonblock.c.o
+
+challenges/ch8_wait_nonblock.i: challenges/ch8_wait_nonblock.c.i
+.PHONY : challenges/ch8_wait_nonblock.i
+
+# target to preprocess a source file
+challenges/ch8_wait_nonblock.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch8_wait_nonblock.dir/build.make CMakeFiles/ch8_wait_nonblock.dir/challenges/ch8_wait_nonblock.c.i
+.PHONY : challenges/ch8_wait_nonblock.c.i
+
+challenges/ch8_wait_nonblock.s: challenges/ch8_wait_nonblock.c.s
+.PHONY : challenges/ch8_wait_nonblock.s
+
+# target to generate assembly for a file
+challenges/ch8_wait_nonblock.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch8_wait_nonblock.dir/build.make CMakeFiles/ch8_wait_nonblock.dir/challenges/ch8_wait_nonblock.c.s
+.PHONY : challenges/ch8_wait_nonblock.c.s
+
+challenges/ch9_zombie.o: challenges/ch9_zombie.c.o
+.PHONY : challenges/ch9_zombie.o
+
+# target to build an object file
+challenges/ch9_zombie.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch9_zombie.dir/build.make CMakeFiles/ch9_zombie.dir/challenges/ch9_zombie.c.o
+.PHONY : challenges/ch9_zombie.c.o
+
+challenges/ch9_zombie.i: challenges/ch9_zombie.c.i
+.PHONY : challenges/ch9_zombie.i
+
+# target to preprocess a source file
+challenges/ch9_zombie.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch9_zombie.dir/build.make CMakeFiles/ch9_zombie.dir/challenges/ch9_zombie.c.i
+.PHONY : challenges/ch9_zombie.c.i
+
+challenges/ch9_zombie.s: challenges/ch9_zombie.c.s
+.PHONY : challenges/ch9_zombie.s
+
+# target to generate assembly for a file
+challenges/ch9_zombie.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch9_zombie.dir/build.make CMakeFiles/ch9_zombie.dir/challenges/ch9_zombie.c.s
+.PHONY : challenges/ch9_zombie.c.s
+
 src/exec_demo.o: src/exec_demo.c.o
 .PHONY : src/exec_demo.o
 
@@ -309,11 +679,51 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... ch10_pool"
+	@echo "... ch1_single_fork"
+	@echo "... ch2_multi_child"
+	@echo "... ch3_exec_ls"
+	@echo "... ch4_exec_worker"
+	@echo "... ch5_exec_examples"
+	@echo "... ch6_pipe_sum"
+	@echo "... ch7_pipeline"
+	@echo "... ch8_wait_nonblock"
+	@echo "... ch9_zombie"
 	@echo "... exec_demo"
 	@echo "... fork_demo"
 	@echo "... pipe_demo"
 	@echo "... pipeline_demo"
 	@echo "... zombie_demo"
+	@echo "... challenges/ch10_pool.o"
+	@echo "... challenges/ch10_pool.i"
+	@echo "... challenges/ch10_pool.s"
+	@echo "... challenges/ch1_single_fork.o"
+	@echo "... challenges/ch1_single_fork.i"
+	@echo "... challenges/ch1_single_fork.s"
+	@echo "... challenges/ch2_multi_child.o"
+	@echo "... challenges/ch2_multi_child.i"
+	@echo "... challenges/ch2_multi_child.s"
+	@echo "... challenges/ch3_exec_ls.o"
+	@echo "... challenges/ch3_exec_ls.i"
+	@echo "... challenges/ch3_exec_ls.s"
+	@echo "... challenges/ch4_exec_worker.o"
+	@echo "... challenges/ch4_exec_worker.i"
+	@echo "... challenges/ch4_exec_worker.s"
+	@echo "... challenges/ch5_exec_examples.o"
+	@echo "... challenges/ch5_exec_examples.i"
+	@echo "... challenges/ch5_exec_examples.s"
+	@echo "... challenges/ch6_pipe_sum.o"
+	@echo "... challenges/ch6_pipe_sum.i"
+	@echo "... challenges/ch6_pipe_sum.s"
+	@echo "... challenges/ch7_pipeline.o"
+	@echo "... challenges/ch7_pipeline.i"
+	@echo "... challenges/ch7_pipeline.s"
+	@echo "... challenges/ch8_wait_nonblock.o"
+	@echo "... challenges/ch8_wait_nonblock.i"
+	@echo "... challenges/ch8_wait_nonblock.s"
+	@echo "... challenges/ch9_zombie.o"
+	@echo "... challenges/ch9_zombie.i"
+	@echo "... challenges/ch9_zombie.s"
 	@echo "... src/exec_demo.o"
 	@echo "... src/exec_demo.i"
 	@echo "... src/exec_demo.s"

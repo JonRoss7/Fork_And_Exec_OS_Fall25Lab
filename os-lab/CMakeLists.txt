@@ -10,6 +10,16 @@ set(SOURCES
     src/pipe_demo.c
     src/pipeline_demo.c
     src/zombie_demo.c
+    challenges/ch1_single_fork.c
+    challenges/ch2_multi_child.c
+    challenges/ch3_exec_ls.c
+    challenges/ch4_exec_worker.c
+    challenges/ch5_exec_examples.c
+    challenges/ch6_pipe_sum.c
+    challenges/ch7_pipeline.c
+    challenges/ch8_wait_nonblock.c
+    challenges/ch9_zombie.c
+    challenges/ch10_pool.c
 )
 
 
@@ -19,3 +29,13 @@ add_executable(exec_demo     src/exec_demo.c)
 add_executable(pipe_demo     src/pipe_demo.c)
 add_executable(pipeline_demo src/pipeline_demo.c)
 add_executable(zombie_demo   src/zombie_demo.c)
+add_executable(ch1_single_fork   challenges/ch1_single_fork.c)
+add_executable(ch2_multi_child   challenges/ch2_multi_child.c)
+add_executable(ch3_exec_ls   challenges/ch3_exec_ls.c)
+add_executable(ch4_exec_worker   challenges/ch4_exec_worker.c)
+add_executable(ch5_exec_examples   challenges/ch5_exec_examples.c)
+add_executable(ch6_pipe_sum   challenges/ch6_pipe_sum.c)
+add_executable(ch7_pipeline   challenges/ch7_pipeline.c)
+add_executable(ch8_wait_nonblock   challenges/ch8_wait_nonblock.c)
+add_executable(ch9_zombie   challenges/ch9_zombie.c)
+add_executable(ch10_pool   challenges/ch10_pool.c)
