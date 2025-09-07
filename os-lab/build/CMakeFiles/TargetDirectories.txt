@@ -1,0 +1,7 @@
+/workspaces/Fork_And_Exec_OS_Fall25Lab/os-lab/build/CMakeFiles/fork_demo.dir
+/workspaces/Fork_And_Exec_OS_Fall25Lab/os-lab/build/CMakeFiles/exec_demo.dir
+/workspaces/Fork_And_Exec_OS_Fall25Lab/os-lab/build/CMakeFiles/pipe_demo.dir
+/workspaces/Fork_And_Exec_OS_Fall25Lab/os-lab/build/CMakeFiles/pipeline_demo.dir
+/workspaces/Fork_And_Exec_OS_Fall25Lab/os-lab/build/CMakeFiles/zombie_demo.dir
+/workspaces/Fork_And_Exec_OS_Fall25Lab/os-lab/build/CMakeFiles/edit_cache.dir
+/workspaces/Fork_And_Exec_OS_Fall25Lab/os-lab/build/CMakeFiles/rebuild_cache.dir
