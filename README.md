@@ -26,17 +26,3 @@ All programs are built with CMake.
 ## Known Issues
 - Exact order of messages may vary due to process scheduling (this is expected behavior in concurrent programs).
 - Programs assume standard UNIX environment with `ls`, `grep`, and `wc` available in `PATH`.
-
----
-
-## How to Run
-```bash
-mkdir build && cd build
-cmake ..
-make
-
-./fork_demo
-./exec_demo
-./pipe_demo
-./pipeline_demo
-./zombie_demo
